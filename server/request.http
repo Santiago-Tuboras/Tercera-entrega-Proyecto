@@ -1,0 +1,29 @@
+###
+GET http://localhost:9000/api HTTP/1.1
+
+###
+POST http://localhost:9000/api HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "bmw",
+    "price": "350",
+    "category": "auto",
+    "cantidad": "6",
+    "image": "https://www.bmw.com.ar/content/dam/bmw/marketLATAM/bmw_com_ar/PublicPools/TeaserPool/LargeTeaser/2020/bmw-x-series-x1-XXL.jpg"
+}
+
+###
+DELETE http://localhost:9000/api/2 HTTP/1.1
+
+###
+PUT http://localhost:9000/api/1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "bmw",
+    "price": "350",
+    "category": "auto",
+    "cantidad": "6",
+    "image": "https://1.bp.blogspot.com/-4ggWXDJmwz4/W4GCzvyCvAI/AAAAAAACxzE/r442DhLZ-F4CizWuq4-2owXMspTur-UDACEwYBhgL/s1600/BMW-Serie-8-M850i-Coup%25C3%25A9-Autoblog-Uruguay-Precios-2018-2019-0km%2B%25282%2529.jpg"
+}
